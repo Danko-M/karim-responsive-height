@@ -1,0 +1,146 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  background: url(../img/bg-xl.jpg) right -500px center no-repeat fixed;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  position: absolute;
+  top: 42%;
+  left: 10%;
+  width: 300px;
+  height: 100px;
+  display: block;
+  background: url(../img/logo.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+[class^="link"] {
+  position: absolute;
+  right: 30%;
+  display: block;
+  width: 270px;
+  padding-left: 20px;
+  line-height: 62px;
+  color: #fff;
+  font-size: 12px;
+  background: url(../img/buttons-min.png) 0 -60px no-repeat;
+}
+
+.link01 {
+  top: 12%;
+  right: 89px;
+}
+
+.link02 {
+  top: 24%;
+  right: 42px;
+}
+
+.link03 {
+  top: 36%;
+  right: 15px;
+}
+
+.link04 {
+  top: 48%;
+  right: 0;
+}
+
+.link05 {
+  top: 60%;
+  right: 6px;
+}
+
+.link06 {
+  top: 72%;
+  right: 35px;
+}
+
+.link07 {
+  top: 84%;
+  right: 85px;
+}
+
+#Image-Maps-Com-image-maps-2015-09-28-025919 {
+  display: none;
+}
+
+@media screen and (min-width: 480px) {
+  a[class^="link"] {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  a[class^="link"] {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    background-position: right -290px center;
+    -webkit-background-size: initial;
+    -moz-background-size: initial;
+    -o-background-size: initial;
+    background-size: initial;
+  }
+  .link01 {
+    right: 255px;
+  }
+  .link02 {
+    right: 235px;
+  }
+  .link03 {
+    right: 219px;
+  }
+  .link04 {
+    right: 213px;
+  }
+  .link05 {
+    right: 212px;
+  }
+  .link06 {
+    right: 227px;
+  }
+  .link07 {
+    right: 253px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    background: #1bbc9b;
+  }
+  .ipad {
+    display: none;
+  }
+  #Image-Maps-Com-image-maps-2015-09-28-025919 {
+    /* responsive height option */
+    display: block;
+    max-width:100%; 
+    max-height:100%; 
+    width:auto;
+
+    /* responsive width option */
+/*    display: block;
+    max-width: 100%;
+    height: auto;*/
+  }
+  
+}
